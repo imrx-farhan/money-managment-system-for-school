@@ -3,6 +3,9 @@ created by imran ahmad
 this   is responsible for keeping track of students
 fees name, grade , fees paid ;
 	*/
+
+
+
 class student  {
 	
 	private int id;
@@ -47,15 +50,47 @@ just add the fees to the feespaid
 the school is going to recevie the funds 
 fees the fees that student pays
 	*/
-	public void	 updatefeespaid(int fees){
+	public void	 payfees(int fees){
 		feespaid+=fees;
 
 
+
+
 	}
+	public int getremaningfees(){
+		return feesTotal-feespaid
+	
+
+	public int getId(){
+	return id;
+
+}
+public int getGrade(){
+	return grade;
+}
+
+public int getfeespaid(){
+	return feespaid;
+}
+public int getfeesTotal(){
+	return feesTotal;
+	
+}
 
 
 
 
+/**
+group members
+imran ahmad farhan 
+javed ahmad 
+rahmatullah 
+qudratullah 
+abdullhakim
+ziaudin
+abdullwaris
+
+	*/
 
 
 
